@@ -1,0 +1,123 @@
+{
+  "eventosCreados": [
+    {
+      "id": "1",
+      "img": "assets/img/evento1.jpg",
+      "nombre": "Fiesta Red",
+      "fecha": "2024-12-20T22:00:00-03:00",
+      "lugar": "Disco Tec",
+      "descripcion": "Ven a la mejor fiesta Red de sudamérica, te estamos esperando para disfrutar"
+    },
+    {
+      "id": "2",
+      "img": "assets/img/evento2.jpg",
+      "nombre": "Final DJ",
+      "fecha": "2024-11-15T21:40:00-03:00",
+      "lugar": "Arena Big",
+      "descripcion": "La apasionante final se acerca y tu puedes ser testigo presencial de este suceso"
+    },
+    {
+      "id": "3",
+      "img": "assets/img/evento3.jpg",
+      "nombre": "Charla de Diseño",
+      "fecha": "2024-11-14T18:30:00-03:00",
+      "lugar": "Auditorio Central",
+      "descripcion": "El destacado diseñador nacional Carlos Rivas presentará sus grandes hitos de moda"
+    },
+    {
+      "id": "4",
+      "img": "assets/img/evento4.jpg",
+      "nombre": "DJ Green",
+      "fecha": "2024-12-10T22:00:00-03:00",
+      "lugar": "Algún Local",
+      "descripcion": "Ven y acompaña al green DJ Carlos Rivas a pinchar los mejores discos del momento"
+    },
+    {
+      "id": "5",
+      "img": "assets/img/evento5.jpg",
+      "nombre": "Matrimonio de Día",
+      "fecha": "2024-12-28T18:00:00-03:00",
+      "lugar": "Jardines Bellos",
+      "descripcion": "Este matrimonio de día te asombrará por su belleza y encanto, no te quedes fuera"
+    },
+    {
+      "id": "6",
+      "img": "assets/img/evento8.jpg",
+      "nombre": "Vista de Galaxias",
+      "fecha": "2024-12-19T23:00:00-03:00",
+      "lugar": "Desierto Oscuro",
+      "descripcion": "Las galaxias nunca se vieron tan claras como en este evento dirigido por el aclamado astrónomo Carlos Rivas"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "nombre": "Alan Britos",
+      "rut": "18563987",
+      "contrasena": "12345678",
+      "correo": "britodelgadito@gmail.com",
+      "genero": "Masculino",
+      "isactive": true
+    },
+    {
+      "id": "2",
+      "nombre": "Felipe Vidal",
+      "usuario": "felividal",
+      "rut": "18528536",
+      "correo": "felipe.vidval@gmail.com",
+      "contrasena": "12345678",
+      "genero": "Masculino",
+      "isactive": true,
+      "img": ""
+    }
+  ],
+  "usuariosOrganizadores": [
+    {
+      "id": "1",
+      "usuario": "admin",
+      "nombre": "Armando Mocha",
+      "rut": "18636987",
+      "contrasena": "12345678",
+      "correo": "armandopelea@gmail.com",
+      "genero": "Masculino",
+      "isactive": true
+    },
+    {
+      "id": "e4f0",
+      "usuario": "felipi",
+      "nombre": "feloco",
+      "rut": "15632578-9",
+      "contrasena": "123456789f",
+      "correo": "felipi@gmail.com",
+      "genero": "Masculino",
+      "isactive": true
+    }
+  ],
+  "eventosInscritos": [
+    {
+      "id": "da53",
+      "usuarioId": "1",
+      "eventoId": "2",
+      "qrData": "{\"usuario\":{\"id\":\"1\",\"rut\":\"18563987\",\"correo\":\"britodelgadito@gmail.com\"},\"evento\":{\"id\":\"2\",\"nombre\":\"Final DJ\",\"fecha\":\"15/11/2024\"}}",
+      "qrEscaneado": false
+    }
+  ],
+  "comentariosEventos": [
+    {
+      "id": "584f",
+      "eventoId": "6",
+      "comentario": "Este evento fue muy bueno"
+    },
+    {
+      "id": "7403",
+      "eventoId": "5",
+      "comentario": "El evento estubo terrible de bueno"
+    },
+    {
+      "id": "5f73",
+      "eventoId": "5",
+      "comentario": "el de arriba es flaite y no sabe escribir"
+    }
+  ]
+}
